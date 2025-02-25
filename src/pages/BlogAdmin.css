@@ -1,0 +1,67 @@
+.main-container{
+    margin: 60px 5px 80px 20px;
+}
+ .home-container{
+    flex-flow: wrap;
+    min-width: 0px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 5px;
+}
+.h2{
+    font-size: 50px;
+    color: rgb(96, 155, 1);
+}
+li{
+    font-size: larger;
+    padding: 20px;
+    width: 100%; 
+    width: 600px;
+    list-style-type: none; /* Remove bullets */
+    height: 300px;
+    border-radius: 10px;
+    border:2px solid;
+    margin: 15px;
+    margin-top: 15px;
+    border-color:grey;
+}
+.view-btn{
+    width: 110px;
+    font-size: 17px;
+    background-color: rgb(3, 165, 3);
+    color: white;
+    text-decoration: none; 
+    padding: 8px;
+  
+}
+.view-btn:hover{
+    background: rgb(1, 173, 1);
+    color:white;
+}
+.delete-btn{
+    width: 110px;
+    font-size: 17px;
+    background-color: red;
+    color: white;
+    padding: 8px;
+}
+.delete-btn:hover{
+    background-color: rgb(231, 3, 3);
+}
+.edit-btn{
+    width: 110px;
+    font-size: 17px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5%;
+    margin-bottom: 15px;
+}
+.edit-btn:hover{
+    background-color: rgb(2, 2, 199);
+} 
+.btn-container{
+    display: grid;
+}

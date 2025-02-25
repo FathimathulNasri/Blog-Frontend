@@ -1,0 +1,28 @@
+.lists{
+    font-size: larger;
+    padding: 75px;
+    width: 80%;
+    list-style-type: none; /* Remove bullets */
+    height: 80%;
+    border-radius: 10px;
+    border:2px solid;
+    /* margin: 20px; */
+    border-color:grey;
+    margin: 40px 10px 100px 40px;
+
+}
+/* .m-container{
+    /* width: 100%; */
+*/
+.blog-container{
+    /* Grid-columns: 12; */ 
+        grid-column:12;
+        /* Grid-columnSpacing: 16px;
+        Grid-rowSpacing: 16px; */
+        flex-flow: wrap;
+        min-width: 0px;
+        box-sizing: border-box;
+        display: flex;
+        gap: var(--Grid-rowSpacing) var(--Grid-columnSpacing);
+        margin: 5px;
+    }
